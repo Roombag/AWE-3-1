@@ -46,6 +46,7 @@
             this.btnMenuA1.TabIndex = 0;
             this.btnMenuA1.Text = "Aufgabe 1";
             this.btnMenuA1.UseVisualStyleBackColor = true;
+            this.btnMenuA1.Click += new System.EventHandler(this.btnMenuA1_Click);
             // 
             // btnMenuA2
             // 

@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace AWE_3_1
 {
-    public partial class menu : Form
+    public partial class Aufgabe1 : Form
     {
-        public menu()
+        public Aufgabe1()
         {
             InitializeComponent();
-        }
-
-        private void btnMenuA1_Click(object sender, EventArgs e)
-        {
-            Aufgabe1 aufgabe1 = new Aufgabe1();
-            aufgabe1.Show();
         }
     }
 }
