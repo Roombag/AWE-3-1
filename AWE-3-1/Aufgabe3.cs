@@ -22,11 +22,11 @@ namespace AWE_3_1
             lbxA3Ausgabe.Items.Clear();
             int start = Convert.ToInt32(txtA3Startwert.Text);
             int ende = Convert.ToInt32(txtA3Endwert.Text);
-            int zahl = Convert.ToInt32(txtA3Zahl.Text);
-            int ergebnis = zahl;
-            for (int i = start; i < ende; i++)
+            int ergebnis = 0;
+
+            for (int i = start; i <= ende; i++)
             {
-                ergebnis *= zahl;
+                ergebnis = i*i;
                 lbxA3Ausgabe.Items.Add(ergebnis);
             }
         }
