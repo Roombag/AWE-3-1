@@ -78,6 +78,9 @@
     <EmbeddedResource Include="Aufgabe2.resx">
       <DependentUpon>Aufgabe2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Aufgabe3.resx">
+      <DependentUpon>Aufgabe3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
