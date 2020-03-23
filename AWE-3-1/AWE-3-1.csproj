@@ -52,6 +52,12 @@
     <Compile Include="aufgabe1.Designer.cs">
       <DependentUpon>aufgabe1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aufgabe2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aufgabe2.Designer.cs">
+      <DependentUpon>Aufgabe2.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="aufgabe1.resx">
       <DependentUpon>aufgabe1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aufgabe2.resx">
+      <DependentUpon>Aufgabe2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
