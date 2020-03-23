@@ -1,6 +1,6 @@
 ﻿namespace AWE_3_1
 {
-    partial class Form1
+    partial class menu
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -110,7 +110,7 @@
             this.btnAufg8.Text = "Aufgabe 8";
             this.btnAufg8.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,7 +123,7 @@
             this.Controls.Add(this.btnAufg3);
             this.Controls.Add(this.btnAufg2);
             this.Controls.Add(this.btnAufg1);
-            this.Name = "Form1";
+            this.Name = "menu";
             this.Text = "3-1";
             this.ResumeLayout(false);
 
@@ -131,14 +131,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnAufg1;
-        private System.Windows.Forms.Button btnAufg2;
-        private System.Windows.Forms.Button btnAufg3;
-        private System.Windows.Forms.Button btnAufg4;
-        private System.Windows.Forms.Button btnAufg5;
-        private System.Windows.Forms.Button btnAufg6;
-        private System.Windows.Forms.Button btnAufg7;
-        private System.Windows.Forms.Button btnAufg8;
+        private System.Windows.Forms.Button btnMenuA1;
+        private System.Windows.Forms.Button btnMenuA2;
+        private System.Windows.Forms.Button btnMenuA3;
+        private System.Windows.Forms.Button btnMenuA4;
+        private System.Windows.Forms.Button btnMenuA5;
+        private System.Windows.Forms.Button btnMenuA6;
+        private System.Windows.Forms.Button btnMenuA7;
+        private System.Windows.Forms.Button btnMenuA8;
     }
 }
 
