@@ -28,101 +28,101 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAufg1 = new System.Windows.Forms.Button();
-            this.btnAufg2 = new System.Windows.Forms.Button();
-            this.btnAufg3 = new System.Windows.Forms.Button();
-            this.btnAufg4 = new System.Windows.Forms.Button();
-            this.btnAufg5 = new System.Windows.Forms.Button();
-            this.btnAufg6 = new System.Windows.Forms.Button();
-            this.btnAufg7 = new System.Windows.Forms.Button();
-            this.btnAufg8 = new System.Windows.Forms.Button();
+            this.btnMenuA1 = new System.Windows.Forms.Button();
+            this.btnMenuA2 = new System.Windows.Forms.Button();
+            this.btnMenuA3 = new System.Windows.Forms.Button();
+            this.btnMenuA4 = new System.Windows.Forms.Button();
+            this.btnMenuA5 = new System.Windows.Forms.Button();
+            this.btnMenuA6 = new System.Windows.Forms.Button();
+            this.btnMenuA7 = new System.Windows.Forms.Button();
+            this.btnMenuA8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnAufg1
+            // btnMenuA1
             // 
-            this.btnAufg1.Location = new System.Drawing.Point(12, 12);
-            this.btnAufg1.Name = "btnAufg1";
-            this.btnAufg1.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg1.TabIndex = 0;
-            this.btnAufg1.Text = "Aufgabe 1";
-            this.btnAufg1.UseVisualStyleBackColor = true;
+            this.btnMenuA1.Location = new System.Drawing.Point(12, 12);
+            this.btnMenuA1.Name = "btnMenuA1";
+            this.btnMenuA1.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA1.TabIndex = 0;
+            this.btnMenuA1.Text = "Aufgabe 1";
+            this.btnMenuA1.UseVisualStyleBackColor = true;
             // 
-            // btnAufg2
+            // btnMenuA2
             // 
-            this.btnAufg2.Location = new System.Drawing.Point(12, 41);
-            this.btnAufg2.Name = "btnAufg2";
-            this.btnAufg2.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg2.TabIndex = 1;
-            this.btnAufg2.Text = "Aufgabe 2";
-            this.btnAufg2.UseVisualStyleBackColor = true;
+            this.btnMenuA2.Location = new System.Drawing.Point(12, 41);
+            this.btnMenuA2.Name = "btnMenuA2";
+            this.btnMenuA2.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA2.TabIndex = 1;
+            this.btnMenuA2.Text = "Aufgabe 2";
+            this.btnMenuA2.UseVisualStyleBackColor = true;
             // 
-            // btnAufg3
+            // btnMenuA3
             // 
-            this.btnAufg3.Location = new System.Drawing.Point(12, 70);
-            this.btnAufg3.Name = "btnAufg3";
-            this.btnAufg3.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg3.TabIndex = 2;
-            this.btnAufg3.Text = "Aufgabe 3";
-            this.btnAufg3.UseVisualStyleBackColor = true;
+            this.btnMenuA3.Location = new System.Drawing.Point(12, 70);
+            this.btnMenuA3.Name = "btnMenuA3";
+            this.btnMenuA3.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA3.TabIndex = 2;
+            this.btnMenuA3.Text = "Aufgabe 3";
+            this.btnMenuA3.UseVisualStyleBackColor = true;
             // 
-            // btnAufg4
+            // btnMenuA4
             // 
-            this.btnAufg4.Location = new System.Drawing.Point(12, 99);
-            this.btnAufg4.Name = "btnAufg4";
-            this.btnAufg4.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg4.TabIndex = 3;
-            this.btnAufg4.Text = "Aufgabe 4";
-            this.btnAufg4.UseVisualStyleBackColor = true;
+            this.btnMenuA4.Location = new System.Drawing.Point(12, 99);
+            this.btnMenuA4.Name = "btnMenuA4";
+            this.btnMenuA4.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA4.TabIndex = 3;
+            this.btnMenuA4.Text = "Aufgabe 4";
+            this.btnMenuA4.UseVisualStyleBackColor = true;
             // 
-            // btnAufg5
+            // btnMenuA5
             // 
-            this.btnAufg5.Location = new System.Drawing.Point(12, 128);
-            this.btnAufg5.Name = "btnAufg5";
-            this.btnAufg5.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg5.TabIndex = 4;
-            this.btnAufg5.Text = "Aufgabe 5";
-            this.btnAufg5.UseVisualStyleBackColor = true;
+            this.btnMenuA5.Location = new System.Drawing.Point(12, 128);
+            this.btnMenuA5.Name = "btnMenuA5";
+            this.btnMenuA5.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA5.TabIndex = 4;
+            this.btnMenuA5.Text = "Aufgabe 5";
+            this.btnMenuA5.UseVisualStyleBackColor = true;
             // 
-            // btnAufg6
+            // btnMenuA6
             // 
-            this.btnAufg6.Location = new System.Drawing.Point(12, 157);
-            this.btnAufg6.Name = "btnAufg6";
-            this.btnAufg6.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg6.TabIndex = 5;
-            this.btnAufg6.Text = "Aufgabe 6";
-            this.btnAufg6.UseVisualStyleBackColor = true;
+            this.btnMenuA6.Location = new System.Drawing.Point(12, 157);
+            this.btnMenuA6.Name = "btnMenuA6";
+            this.btnMenuA6.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA6.TabIndex = 5;
+            this.btnMenuA6.Text = "Aufgabe 6";
+            this.btnMenuA6.UseVisualStyleBackColor = true;
             // 
-            // btnAufg7
+            // btnMenuA7
             // 
-            this.btnAufg7.Location = new System.Drawing.Point(12, 186);
-            this.btnAufg7.Name = "btnAufg7";
-            this.btnAufg7.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg7.TabIndex = 6;
-            this.btnAufg7.Text = "Aufgabe 7";
-            this.btnAufg7.UseVisualStyleBackColor = true;
+            this.btnMenuA7.Location = new System.Drawing.Point(12, 186);
+            this.btnMenuA7.Name = "btnMenuA7";
+            this.btnMenuA7.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA7.TabIndex = 6;
+            this.btnMenuA7.Text = "Aufgabe 7";
+            this.btnMenuA7.UseVisualStyleBackColor = true;
             // 
-            // btnAufg8
+            // btnMenuA8
             // 
-            this.btnAufg8.Location = new System.Drawing.Point(12, 215);
-            this.btnAufg8.Name = "btnAufg8";
-            this.btnAufg8.Size = new System.Drawing.Size(96, 23);
-            this.btnAufg8.TabIndex = 7;
-            this.btnAufg8.Text = "Aufgabe 8";
-            this.btnAufg8.UseVisualStyleBackColor = true;
+            this.btnMenuA8.Location = new System.Drawing.Point(12, 215);
+            this.btnMenuA8.Name = "btnMenuA8";
+            this.btnMenuA8.Size = new System.Drawing.Size(96, 23);
+            this.btnMenuA8.TabIndex = 7;
+            this.btnMenuA8.Text = "Aufgabe 8";
+            this.btnMenuA8.UseVisualStyleBackColor = true;
             // 
             // menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(120, 248);
-            this.Controls.Add(this.btnAufg8);
-            this.Controls.Add(this.btnAufg7);
-            this.Controls.Add(this.btnAufg6);
-            this.Controls.Add(this.btnAufg5);
-            this.Controls.Add(this.btnAufg4);
-            this.Controls.Add(this.btnAufg3);
-            this.Controls.Add(this.btnAufg2);
-            this.Controls.Add(this.btnAufg1);
+            this.Controls.Add(this.btnMenuA8);
+            this.Controls.Add(this.btnMenuA7);
+            this.Controls.Add(this.btnMenuA6);
+            this.Controls.Add(this.btnMenuA5);
+            this.Controls.Add(this.btnMenuA4);
+            this.Controls.Add(this.btnMenuA3);
+            this.Controls.Add(this.btnMenuA2);
+            this.Controls.Add(this.btnMenuA1);
             this.Name = "menu";
             this.Text = "3-1";
             this.ResumeLayout(false);
