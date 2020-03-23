@@ -46,6 +46,7 @@
             this.btnA3Start.TabIndex = 0;
             this.btnA3Start.Text = "Start";
             this.btnA3Start.UseVisualStyleBackColor = true;
+            this.btnA3Start.Click += new System.EventHandler(this.btnA3Start_Click);
             // 
             // txtA3Endwert
             // 
