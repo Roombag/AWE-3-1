@@ -44,6 +44,7 @@
             this.btnA2Start.TabIndex = 0;
             this.btnA2Start.Text = "Start";
             this.btnA2Start.UseVisualStyleBackColor = true;
+            this.btnA2Start.Click += new System.EventHandler(this.btnA2Start_Click);
             // 
             // lbxA2Ausgabe
             // 

@@ -16,5 +16,15 @@ namespace AWE_3_1
         {
             InitializeComponent();
         }
+
+        private void btnA2Start_Click(object sender, EventArgs e)
+        {
+            int start = Convert.ToInt32(txtA2Startwert.Text);
+            int ende = Convert.ToInt32(txtA2Endwert.Text);
+            for (int i = start; i < ende; i++)
+            {
+                lbxA2Ausgabe.Items.Add(i);
+            }
+        }
     }
 }
