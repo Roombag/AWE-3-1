@@ -34,6 +34,8 @@
             this.lblA3Startwert = new System.Windows.Forms.Label();
             this.txtA3Startwert = new System.Windows.Forms.TextBox();
             this.lbxA3Ausgabe = new System.Windows.Forms.ListBox();
+            this.txtA3Zahl = new System.Windows.Forms.TextBox();
+            this.lblA3Zahl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnA3Start
@@ -47,7 +49,7 @@
             // 
             // txtA3Endwert
             // 
-            this.txtA3Endwert.Location = new System.Drawing.Point(65, 71);
+            this.txtA3Endwert.Location = new System.Drawing.Point(65, 96);
             this.txtA3Endwert.Name = "txtA3Endwert";
             this.txtA3Endwert.Size = new System.Drawing.Size(76, 20);
             this.txtA3Endwert.TabIndex = 10;
@@ -55,7 +57,7 @@
             // lblA3Endwert
             // 
             this.lblA3Endwert.AutoSize = true;
-            this.lblA3Endwert.Location = new System.Drawing.Point(10, 74);
+            this.lblA3Endwert.Location = new System.Drawing.Point(10, 99);
             this.lblA3Endwert.Name = "lblA3Endwert";
             this.lblA3Endwert.Size = new System.Drawing.Size(49, 13);
             this.lblA3Endwert.TabIndex = 9;
@@ -64,7 +66,7 @@
             // lblA3Startwert
             // 
             this.lblA3Startwert.AutoSize = true;
-            this.lblA3Startwert.Location = new System.Drawing.Point(10, 49);
+            this.lblA3Startwert.Location = new System.Drawing.Point(10, 74);
             this.lblA3Startwert.Name = "lblA3Startwert";
             this.lblA3Startwert.Size = new System.Drawing.Size(52, 13);
             this.lblA3Startwert.TabIndex = 8;
@@ -72,7 +74,7 @@
             // 
             // txtA3Startwert
             // 
-            this.txtA3Startwert.Location = new System.Drawing.Point(65, 46);
+            this.txtA3Startwert.Location = new System.Drawing.Point(65, 71);
             this.txtA3Startwert.Name = "txtA3Startwert";
             this.txtA3Startwert.Size = new System.Drawing.Size(76, 20);
             this.txtA3Startwert.TabIndex = 7;
@@ -80,16 +82,34 @@
             // lbxA3Ausgabe
             // 
             this.lbxA3Ausgabe.FormattingEnabled = true;
-            this.lbxA3Ausgabe.Location = new System.Drawing.Point(13, 97);
+            this.lbxA3Ausgabe.Location = new System.Drawing.Point(13, 122);
             this.lbxA3Ausgabe.Name = "lbxA3Ausgabe";
             this.lbxA3Ausgabe.Size = new System.Drawing.Size(128, 186);
             this.lbxA3Ausgabe.TabIndex = 6;
+            // 
+            // txtA3Zahl
+            // 
+            this.txtA3Zahl.Location = new System.Drawing.Point(65, 45);
+            this.txtA3Zahl.Name = "txtA3Zahl";
+            this.txtA3Zahl.Size = new System.Drawing.Size(76, 20);
+            this.txtA3Zahl.TabIndex = 11;
+            // 
+            // lblA3Zahl
+            // 
+            this.lblA3Zahl.AutoSize = true;
+            this.lblA3Zahl.Location = new System.Drawing.Point(10, 48);
+            this.lblA3Zahl.Name = "lblA3Zahl";
+            this.lblA3Zahl.Size = new System.Drawing.Size(31, 13);
+            this.lblA3Zahl.TabIndex = 12;
+            this.lblA3Zahl.Text = "Zahl:";
             // 
             // Aufgabe3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(154, 322);
+            this.Controls.Add(this.lblA3Zahl);
+            this.Controls.Add(this.txtA3Zahl);
             this.Controls.Add(this.txtA3Endwert);
             this.Controls.Add(this.lblA3Endwert);
             this.Controls.Add(this.lblA3Startwert);
@@ -111,5 +131,7 @@
         private System.Windows.Forms.Label lblA3Startwert;
         private System.Windows.Forms.TextBox txtA3Startwert;
         private System.Windows.Forms.ListBox lbxA3Ausgabe;
+        private System.Windows.Forms.TextBox txtA3Zahl;
+        private System.Windows.Forms.Label lblA3Zahl;
     }
 }
