@@ -47,7 +47,7 @@
             // 
             this.txtA4Eingabe.Location = new System.Drawing.Point(15, 55);
             this.txtA4Eingabe.Name = "txtA4Eingabe";
-            this.txtA4Eingabe.Size = new System.Drawing.Size(100, 20);
+            this.txtA4Eingabe.Size = new System.Drawing.Size(146, 20);
             this.txtA4Eingabe.TabIndex = 1;
             // 
             // lblA4Eingabe
@@ -64,14 +64,14 @@
             this.lbxA4Ausgabe.FormattingEnabled = true;
             this.lbxA4Ausgabe.Location = new System.Drawing.Point(15, 81);
             this.lbxA4Ausgabe.Name = "lbxA4Ausgabe";
-            this.lbxA4Ausgabe.Size = new System.Drawing.Size(100, 186);
+            this.lbxA4Ausgabe.Size = new System.Drawing.Size(146, 186);
             this.lbxA4Ausgabe.TabIndex = 3;
             // 
             // Aufgabe4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(177, 281);
             this.Controls.Add(this.lbxA4Ausgabe);
             this.Controls.Add(this.lblA4Eingabe);
             this.Controls.Add(this.txtA4Eingabe);
