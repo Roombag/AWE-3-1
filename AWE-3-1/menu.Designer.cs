@@ -86,6 +86,7 @@
             this.btnMenuA5.TabIndex = 4;
             this.btnMenuA5.Text = "Aufgabe 5";
             this.btnMenuA5.UseVisualStyleBackColor = true;
+            this.btnMenuA5.Click += new System.EventHandler(this.btnMenuA5_Click);
             // 
             // btnMenuA6
             // 

@@ -70,6 +70,12 @@
     <Compile Include="Aufgabe4.Designer.cs">
       <DependentUpon>Aufgabe4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aufgabe5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aufgabe5.Designer.cs">
+      <DependentUpon>Aufgabe5.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
