@@ -42,6 +42,7 @@
             this.btnA4Start.TabIndex = 0;
             this.btnA4Start.Text = "Start";
             this.btnA4Start.UseVisualStyleBackColor = true;
+            this.btnA4Start.Click += new System.EventHandler(this.btnA4Start_Click);
             // 
             // txtA4Eingabe
             // 

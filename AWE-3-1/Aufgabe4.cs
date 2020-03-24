@@ -16,5 +16,12 @@ namespace AWE_3_1
         {
             InitializeComponent();
         }
+
+        private void btnA4Start_Click(object sender, EventArgs e)
+        {
+            int eingabe = Convert.ToInt32(txtA4Eingabe.Text);
+            
+            
+        }
     }
 }
