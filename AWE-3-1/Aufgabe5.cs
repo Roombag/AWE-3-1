@@ -16,5 +16,19 @@ namespace AWE_3_1
         {
             InitializeComponent();
         }
+
+        private void btnA5Start_Click(object sender, EventArgs e)
+        {
+            double intOben, intUnten = 0;
+            // Intervallgrenzen Oben und Unten
+            double eingabe = Convert.ToDouble(txtA5Eingabe.Text);
+            double rechenVar = 0;
+            // Rechenvariable
+            do
+            {
+
+            } while (true);
+
+        }
     }
 }

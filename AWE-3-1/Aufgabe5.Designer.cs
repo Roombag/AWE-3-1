@@ -66,6 +66,7 @@
             this.btnA5Start.TabIndex = 4;
             this.btnA5Start.Text = "Start";
             this.btnA5Start.UseVisualStyleBackColor = true;
+            this.btnA5Start.Click += new System.EventHandler(this.btnA5Start_Click);
             // 
             // Aufgabe5
             // 
