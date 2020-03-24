@@ -25,7 +25,7 @@ namespace AWE_3_1
             double intOben = 1;
             // Intervallgrenzen Oben und Unten
             double eingabe = Convert.ToDouble(txtA5Eingabe.Text);
-            double q1 = 1, q2 = 1;
+            double q1 = 0, q2 = 0;
             double zwErgebnis = 0;
             // Rechenvariable
             double intSchritt = 1;
@@ -34,8 +34,8 @@ namespace AWE_3_1
                 do
                 {
                     q2 = q1;
-                    q1 += intSchritt;
-                    zwErgebnis = q1 * q1;
+                    q1 = Math.Round(intSchritt + q1, 15);
+                    zwErgebnis = Math.Round(q1 * q1, 15);
                 } while (zwErgebnis < eingabe);
                 intUnten = q2;
                 intOben = q1;
