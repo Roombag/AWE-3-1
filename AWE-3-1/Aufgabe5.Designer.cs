@@ -39,7 +39,7 @@
             this.lbxA5Ausgabe.FormattingEnabled = true;
             this.lbxA5Ausgabe.Location = new System.Drawing.Point(14, 80);
             this.lbxA5Ausgabe.Name = "lbxA5Ausgabe";
-            this.lbxA5Ausgabe.Size = new System.Drawing.Size(146, 186);
+            this.lbxA5Ausgabe.Size = new System.Drawing.Size(415, 186);
             this.lbxA5Ausgabe.TabIndex = 7;
             // 
             // lblA5Eingabe
@@ -55,7 +55,7 @@
             // 
             this.txtA5Eingabe.Location = new System.Drawing.Point(14, 54);
             this.txtA5Eingabe.Name = "txtA5Eingabe";
-            this.txtA5Eingabe.Size = new System.Drawing.Size(146, 20);
+            this.txtA5Eingabe.Size = new System.Drawing.Size(111, 20);
             this.txtA5Eingabe.TabIndex = 5;
             // 
             // btnA5Start
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(176, 280);
+            this.ClientSize = new System.Drawing.Size(441, 280);
             this.Controls.Add(this.lbxA5Ausgabe);
             this.Controls.Add(this.lblA5Eingabe);
             this.Controls.Add(this.txtA5Eingabe);
