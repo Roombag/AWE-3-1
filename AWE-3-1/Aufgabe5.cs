@@ -28,26 +28,35 @@ namespace AWE_3_1
             double q1 = 1, q2 = 1;
             double zwErgebnis = 0;
             // Rechenvariable
-            double intSchritt = intOben - intUnten;
+            double intSchritt = 1;
             do
             {
                 do
                 {
-                    zwErgebnis = q1 * q1;
                     q2 = q1;
                     q1 += intSchritt;
-                } while (zwErgebnis < (eingabe * eingabe));
-                intUnten = q1;
-                intOben = q2;
+                    zwErgebnis = q1 * q1;
+                } while (zwErgebnis < eingabe);
+                intUnten = q2;
+                intOben = q1;
+                q1 = intUnten;
+                q2 = intOben;
                 lbxA5Ausgabe.Items.Add(
                     "[" + 
                     Convert.ToString(intUnten) + 
                     ";" +
                     Convert.ToString(intOben) + 
-                    "]"
+                    "]" +
+                    "Intevall: " +
+                    Convert.ToString(intSchritt)
                     );
-            } while (zwErgebnis != (eingabe * eingabe));
+                intSchritt = intSchritt / 10;
+            } while (zwErgebnis != eingabe);
 
+            lbxA5Ausgabe.Items.Add(
+                "Ergebnis: " +
+                Convert.ToString(q2)
+                );
 
         }
     }
