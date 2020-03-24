@@ -19,15 +19,35 @@ namespace AWE_3_1
 
         private void btnA5Start_Click(object sender, EventArgs e)
         {
-            double intOben, intUnten = 0;
+            lbxA5Ausgabe.Items.Clear();
+            // listbox leeren
+            double intUnten = 0;
+            double intOben = 1;
             // Intervallgrenzen Oben und Unten
             double eingabe = Convert.ToDouble(txtA5Eingabe.Text);
-            double rechenVar = 0;
+            double q1 = 1, q2 = 1;
+            double zwErgebnis = 0;
             // Rechenvariable
+            double intSchritt = intOben - intUnten;
             do
             {
+                do
+                {
+                    zwErgebnis = q1 * q1;
+                    q2 = q1;
+                    q1 += intSchritt;
+                } while (zwErgebnis < (eingabe * eingabe));
+                intUnten = q1;
+                intOben = q2;
+                lbxA5Ausgabe.Items.Add(
+                    "[" + 
+                    Convert.ToString(intUnten) + 
+                    ";" +
+                    Convert.ToString(intOben) + 
+                    "]"
+                    );
+            } while (zwErgebnis != (eingabe * eingabe));
 
-            } while (true);
 
         }
     }
