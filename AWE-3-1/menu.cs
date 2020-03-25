@@ -46,5 +46,11 @@ namespace AWE_3_1
             Aufgabe5 aufgabe5 = new Aufgabe5();
             aufgabe5.Show();
         }
+
+        private void btnMenuA6_Click(object sender, EventArgs e)
+        {
+            Aufgabe6 aufgabe6 = new Aufgabe6();
+            aufgabe6.Show();
+        }
     }
 }
