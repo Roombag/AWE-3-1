@@ -32,6 +32,7 @@
             this.txtA7Eingabe = new System.Windows.Forms.TextBox();
             this.lbxA7Ausgabe = new System.Windows.Forms.ListBox();
             this.btnA7Zuruecksetzen = new System.Windows.Forms.Button();
+            this.btnA7Start = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblA7Anzahl
@@ -68,11 +69,21 @@
             this.btnA7Zuruecksetzen.Text = "Zurücksetzen";
             this.btnA7Zuruecksetzen.UseVisualStyleBackColor = true;
             // 
+            // btnA7Start
+            // 
+            this.btnA7Start.Location = new System.Drawing.Point(122, 28);
+            this.btnA7Start.Name = "btnA7Start";
+            this.btnA7Start.Size = new System.Drawing.Size(75, 23);
+            this.btnA7Start.TabIndex = 4;
+            this.btnA7Start.Text = "Start";
+            this.btnA7Start.UseVisualStyleBackColor = true;
+            // 
             // Aufgabe7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 378);
+            this.Controls.Add(this.btnA7Start);
             this.Controls.Add(this.btnA7Zuruecksetzen);
             this.Controls.Add(this.lbxA7Ausgabe);
             this.Controls.Add(this.txtA7Eingabe);
@@ -90,5 +101,6 @@
         private System.Windows.Forms.TextBox txtA7Eingabe;
         private System.Windows.Forms.ListBox lbxA7Ausgabe;
         private System.Windows.Forms.Button btnA7Zuruecksetzen;
+        private System.Windows.Forms.Button btnA7Start;
     }
 }
