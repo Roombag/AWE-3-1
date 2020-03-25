@@ -28,12 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnA6Naechste = new System.Windows.Forms.Button();
+            this.txtA6Eingabe = new System.Windows.Forms.TextBox();
+            this.lbxA6Ausgabe = new System.Windows.Forms.ListBox();
+            this.txtA6Durchschnitt = new System.Windows.Forms.TextBox();
+            this.lblA6Durchschnitt = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btnA6Naechste
+            // 
+            this.btnA6Naechste.Location = new System.Drawing.Point(13, 39);
+            this.btnA6Naechste.Name = "btnA6Naechste";
+            this.btnA6Naechste.Size = new System.Drawing.Size(79, 23);
+            this.btnA6Naechste.TabIndex = 0;
+            this.btnA6Naechste.Text = "nächste Zahl";
+            this.btnA6Naechste.UseVisualStyleBackColor = true;
+            // 
+            // txtA6Eingabe
+            // 
+            this.txtA6Eingabe.Location = new System.Drawing.Point(13, 13);
+            this.txtA6Eingabe.Name = "txtA6Eingabe";
+            this.txtA6Eingabe.Size = new System.Drawing.Size(100, 20);
+            this.txtA6Eingabe.TabIndex = 1;
+            // 
+            // lbxA6Ausgabe
+            // 
+            this.lbxA6Ausgabe.FormattingEnabled = true;
+            this.lbxA6Ausgabe.Location = new System.Drawing.Point(13, 69);
+            this.lbxA6Ausgabe.Name = "lbxA6Ausgabe";
+            this.lbxA6Ausgabe.Size = new System.Drawing.Size(100, 134);
+            this.lbxA6Ausgabe.TabIndex = 2;
+            // 
+            // txtA6Durchschnitt
+            // 
+            this.txtA6Durchschnitt.Location = new System.Drawing.Point(12, 226);
+            this.txtA6Durchschnitt.Name = "txtA6Durchschnitt";
+            this.txtA6Durchschnitt.Size = new System.Drawing.Size(100, 20);
+            this.txtA6Durchschnitt.TabIndex = 3;
+            // 
+            // lblA6Durchschnitt
+            // 
+            this.lblA6Durchschnitt.AutoSize = true;
+            this.lblA6Durchschnitt.Location = new System.Drawing.Point(13, 210);
+            this.lblA6Durchschnitt.Name = "lblA6Durchschnitt";
+            this.lblA6Durchschnitt.Size = new System.Drawing.Size(70, 13);
+            this.lblA6Durchschnitt.TabIndex = 4;
+            this.lblA6Durchschnitt.Text = "Durchschnitt:";
+            // 
+            // Aufgabe6
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(139, 272);
+            this.Controls.Add(this.lblA6Durchschnitt);
+            this.Controls.Add(this.txtA6Durchschnitt);
+            this.Controls.Add(this.lbxA6Ausgabe);
+            this.Controls.Add(this.txtA6Eingabe);
+            this.Controls.Add(this.btnA6Naechste);
+            this.Name = "Aufgabe6";
             this.Text = "Aufgabe6";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnA6Naechste;
+        private System.Windows.Forms.TextBox txtA6Eingabe;
+        private System.Windows.Forms.ListBox lbxA6Ausgabe;
+        private System.Windows.Forms.TextBox txtA6Durchschnitt;
+        private System.Windows.Forms.Label lblA6Durchschnitt;
     }
 }
