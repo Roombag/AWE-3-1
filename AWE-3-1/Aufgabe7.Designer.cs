@@ -62,7 +62,7 @@
             // 
             // btnA7Zuruecksetzen
             // 
-            this.btnA7Zuruecksetzen.Location = new System.Drawing.Point(16, 341);
+            this.btnA7Zuruecksetzen.Location = new System.Drawing.Point(203, 28);
             this.btnA7Zuruecksetzen.Name = "btnA7Zuruecksetzen";
             this.btnA7Zuruecksetzen.Size = new System.Drawing.Size(100, 23);
             this.btnA7Zuruecksetzen.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 378);
+            this.ClientSize = new System.Drawing.Size(364, 347);
             this.Controls.Add(this.btnA7Start);
             this.Controls.Add(this.btnA7Zuruecksetzen);
             this.Controls.Add(this.lbxA7Ausgabe);
