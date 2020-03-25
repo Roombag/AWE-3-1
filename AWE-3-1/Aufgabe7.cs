@@ -16,5 +16,16 @@ namespace AWE_3_1
         {
             InitializeComponent();
         }
+
+        private void btnA7Start_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnA7Zuruecksetzen_Click(object sender, EventArgs e)
+        {
+            txtA7Eingabe.Clear();
+            lbxA7Ausgabe.Items.Clear();
+        }
     }
 }

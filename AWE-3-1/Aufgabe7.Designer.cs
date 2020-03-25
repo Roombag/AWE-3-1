@@ -68,6 +68,7 @@
             this.btnA7Zuruecksetzen.TabIndex = 3;
             this.btnA7Zuruecksetzen.Text = "Zurücksetzen";
             this.btnA7Zuruecksetzen.UseVisualStyleBackColor = true;
+            this.btnA7Zuruecksetzen.Click += new System.EventHandler(this.btnA7Zuruecksetzen_Click);
             // 
             // btnA7Start
             // 
@@ -77,6 +78,7 @@
             this.btnA7Start.TabIndex = 4;
             this.btnA7Start.Text = "Start";
             this.btnA7Start.UseVisualStyleBackColor = true;
+            this.btnA7Start.Click += new System.EventHandler(this.btnA7Start_Click);
             // 
             // Aufgabe7
             // 
