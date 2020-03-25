@@ -39,16 +39,16 @@
             // 
             this.btnA6Naechste.Location = new System.Drawing.Point(13, 39);
             this.btnA6Naechste.Name = "btnA6Naechste";
-            this.btnA6Naechste.Size = new System.Drawing.Size(79, 23);
+            this.btnA6Naechste.Size = new System.Drawing.Size(114, 23);
             this.btnA6Naechste.TabIndex = 0;
-            this.btnA6Naechste.Text = "nächste Zahl";
+            this.btnA6Naechste.Text = "nächste Zahl/Start";
             this.btnA6Naechste.UseVisualStyleBackColor = true;
             // 
             // txtA6Eingabe
             // 
             this.txtA6Eingabe.Location = new System.Drawing.Point(13, 13);
             this.txtA6Eingabe.Name = "txtA6Eingabe";
-            this.txtA6Eingabe.Size = new System.Drawing.Size(100, 20);
+            this.txtA6Eingabe.Size = new System.Drawing.Size(114, 20);
             this.txtA6Eingabe.TabIndex = 1;
             // 
             // lbxA6Ausgabe
@@ -56,14 +56,14 @@
             this.lbxA6Ausgabe.FormattingEnabled = true;
             this.lbxA6Ausgabe.Location = new System.Drawing.Point(13, 69);
             this.lbxA6Ausgabe.Name = "lbxA6Ausgabe";
-            this.lbxA6Ausgabe.Size = new System.Drawing.Size(100, 134);
+            this.lbxA6Ausgabe.Size = new System.Drawing.Size(114, 134);
             this.lbxA6Ausgabe.TabIndex = 2;
             // 
             // txtA6Durchschnitt
             // 
             this.txtA6Durchschnitt.Location = new System.Drawing.Point(12, 226);
             this.txtA6Durchschnitt.Name = "txtA6Durchschnitt";
-            this.txtA6Durchschnitt.Size = new System.Drawing.Size(100, 20);
+            this.txtA6Durchschnitt.Size = new System.Drawing.Size(115, 20);
             this.txtA6Durchschnitt.TabIndex = 3;
             // 
             // lblA6Durchschnitt
