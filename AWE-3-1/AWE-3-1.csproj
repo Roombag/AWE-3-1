@@ -82,6 +82,12 @@
     <Compile Include="Aufgabe6.Designer.cs">
       <DependentUpon>Aufgabe6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aufgabe7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aufgabe7.Designer.cs">
+      <DependentUpon>Aufgabe7.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
