@@ -85,6 +85,7 @@
             this.btnA6Zurueck.TabIndex = 5;
             this.btnA6Zurueck.Text = "Zurücksetzen";
             this.btnA6Zurueck.UseVisualStyleBackColor = true;
+            this.btnA6Zurueck.Click += new System.EventHandler(this.btnA6Zurueck_Click);
             // 
             // Aufgabe6
             // 

@@ -19,7 +19,16 @@ namespace AWE_3_1
 
         private void btnA6Naechste_Click(object sender, EventArgs e)
         {
+            double eingabe = Convert.ToDouble(txtA6Eingabe);
+            double ergebnis = 0;
+            double summe = 0;
+            int laenge = lbxA6Ausgabe.Items.Count;
 
+        }
+
+        private void btnA6Zurueck_Click(object sender, EventArgs e)
+        {
+            lbxA6Ausgabe.Items.Clear();
         }
     }
 }
