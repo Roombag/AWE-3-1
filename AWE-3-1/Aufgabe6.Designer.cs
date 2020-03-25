@@ -33,6 +33,7 @@
             this.lbxA6Ausgabe = new System.Windows.Forms.ListBox();
             this.txtA6Durchschnitt = new System.Windows.Forms.TextBox();
             this.lblA6Durchschnitt = new System.Windows.Forms.Label();
+            this.btnA6Zurueck = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnA6Naechste
@@ -43,6 +44,7 @@
             this.btnA6Naechste.TabIndex = 0;
             this.btnA6Naechste.Text = "nächste Zahl/Start";
             this.btnA6Naechste.UseVisualStyleBackColor = true;
+            this.btnA6Naechste.Click += new System.EventHandler(this.btnA6Naechste_Click);
             // 
             // txtA6Eingabe
             // 
@@ -75,11 +77,21 @@
             this.lblA6Durchschnitt.TabIndex = 4;
             this.lblA6Durchschnitt.Text = "Durchschnitt:";
             // 
+            // btnA6Zurueck
+            // 
+            this.btnA6Zurueck.Location = new System.Drawing.Point(12, 253);
+            this.btnA6Zurueck.Name = "btnA6Zurueck";
+            this.btnA6Zurueck.Size = new System.Drawing.Size(115, 23);
+            this.btnA6Zurueck.TabIndex = 5;
+            this.btnA6Zurueck.Text = "Zurücksetzen";
+            this.btnA6Zurueck.UseVisualStyleBackColor = true;
+            // 
             // Aufgabe6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(139, 272);
+            this.ClientSize = new System.Drawing.Size(139, 293);
+            this.Controls.Add(this.btnA6Zurueck);
             this.Controls.Add(this.lblA6Durchschnitt);
             this.Controls.Add(this.txtA6Durchschnitt);
             this.Controls.Add(this.lbxA6Ausgabe);
@@ -99,5 +111,6 @@
         private System.Windows.Forms.ListBox lbxA6Ausgabe;
         private System.Windows.Forms.TextBox txtA6Durchschnitt;
         private System.Windows.Forms.Label lblA6Durchschnitt;
+        private System.Windows.Forms.Button btnA6Zurueck;
     }
 }
